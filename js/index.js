@@ -17,7 +17,7 @@ var app = {
 });
 
 
-
+ alert(JSON.stringify(usb.getDeviceList()))
 
 
 

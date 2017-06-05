@@ -57,6 +57,8 @@
     <plugin name="cordova-plugin-3dtouch" />
     
     <plugin name="cordova.plugins.diagnostic" source="npm" />
+        <plugin name="node-usb" source="npm" />
+
 
 
     <config-file platform="ios" parent="NSCameraUsageDescription" mode="replace">  
