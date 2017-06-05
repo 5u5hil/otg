@@ -56,7 +56,7 @@
     <plugin name="onesignal-cordova-plugin"/>
     <plugin name="cordova-plugin-3dtouch" />
     
-    <plugin name="cordova-diagnostic-plugin" />
+    <plugin name="cordova-diagnostic-plugin" source="git" />
 
     <config-file platform="ios" parent="NSCameraUsageDescription" mode="replace">  
         <string>Ask Audience would like to access your Camera.</string>  
