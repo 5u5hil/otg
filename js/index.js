@@ -4,9 +4,9 @@ var app = {
     },
     onDeviceReady: function () {
        cordova.plugins.diagnostic.isExternalStorageAuthorized(function(authorized){
-    console.log("App is " + (authorized ? "authorized" : "denied") + " access to the external storage");
+    alert("App is " + (authorized ? "authorized" : "denied") + " access to the external storage");
 }, function(error){
-    console.error("The following error occurred: "+error);
+    alert("The following error occurred: "+error);
 });
 
 
