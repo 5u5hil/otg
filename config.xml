@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets"     xmlns:gap="http://phonegap.com/ns/1.0"     id= "com.otg.app"     versionCode="20"     version="1.1.1" >   
     
     <name>OTG</name>
-    <description>A Polling App</description>
+   
     <author email="support@infiniteit.biz" href="http://www.infinisystem.com/">Infini Systems</author>
     <content src="index.html"/>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
@@ -55,7 +55,9 @@
     <plugin name="cordova-plugin-x-toast"/>
     <plugin name="onesignal-cordova-plugin"/>
     <plugin name="cordova-plugin-3dtouch" />
-    <plugin name="cordova-plugin-chrome-apps-usb"  />
+    
+    <gap:plugin name="cordova-plugin-serial" source="npm" />
+
     <config-file platform="ios" parent="NSCameraUsageDescription" mode="replace">  
         <string>Ask Audience would like to access your Camera.</string>  
     </config-file>  
